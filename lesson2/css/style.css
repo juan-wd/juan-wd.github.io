@@ -1,44 +1,61 @@
 body {
-    max-width: 720px;
-    background-color: #33658a;
+    max-width: 960px;
     font-family: 'Rubik', sans-serif;
     padding: 5px 25px;
-    font-size: 18px;
+    font-size: 20px;
+    text-align: center;
     margin: auto;
-    color: white;
+    color: #536C37;
   }
   
   h1,h2,h3,h4,h5,h6 {
-    background-color: #461339;
+    background-color: #477998;
     color: #fafaff;
     font-family: 'Ubuntu', sans-serif;
     font-size: 32px;
     border-radius: 4px;
   }
   h1 {
-    padding: 0.8em;
-    border-radius: 0.3rem;
+    padding: 0.3em;
   }
-  .portal {
-    font-size: 20px;
-    color: #fafaff;
+  .title,.myName {
+
   }
-  header {
-    align-items: center;
-  }
-  .banner-box {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    max-width: 100%;
-    display: block;
+  .design {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     
   }
-  .headline-1 {
-    margin: 40px 40px;
-    padding: 8px;
-    text-align: center;
+  .firstLaw {
+    border-radius: 0.5rem;
+    border-style: solid;
+    margin: 20px;
+    margin-bottom: 0rem;
+    border-color: #477998;
+  }
+  .vorterix {
+    padding-bottom: 1em;
+  }
+  .secondLaw {
+    border-radius: 0.5rem;
+    border-style: solid;
+    margin: 20px;
+    margin-bottom: 0rem;
+    border-color: #477998;
+  }
+  .mercadoLibre {
+    padding-bottom: 1em;
+  }
+  .thirdLaw {
+    border-radius: 0.5rem;
+    border-style: solid;
+    margin: 20px;
+    margin-bottom: 0rem;
+    border-color: #477998;
+  }
+  .johnDeere {
+    padding-bottom: 1em;
   }
   .footer {
     background-color: #461339;
