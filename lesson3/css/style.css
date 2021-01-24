@@ -1,0 +1,106 @@
+body {
+    max-width: 960px;
+    background-color: #48512A;
+    font-family: 'Cabin', sans-serif;
+    padding: 5px 25px;
+    font-size: 18px;
+    align-items: center;
+    margin: auto;
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    background-color: #FEFAE0;
+    color: #DDA15E;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    border-radius: 4px;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+    list-style: none;
+    text-align: center;
+    align-content: center;
+    margin: 20px 20px;
+}
+
+nav ul a:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav ul a:hover {
+    background-color: #f26419;
+}
+
+nav ul a {
+    color: white;
+}
+
+.palette {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.Bgdcolor {
+    background-color: #48512A;
+    padding: 1rem;
+    color: chocolate;
+}
+
+.color1 {
+    background-color: #FEFAE0;
+    padding: 1rem;
+    color: chocolate;
+}
+
+.color2 {
+    background-color: #DDA15E;
+    padding: 1rem;
+    color: chocolate;
+}
+
+.font {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+    background-color: grey;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    align-items: center;
+    justify-items: center;
+    padding: 1rem;
+}
+
+.mainF {
+    grid-gap: 10px;
+    padding: 1rem;
+}
+
+.mainfont {
+    grid-gap: 10px;
+    padding: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+.seconF {
+    grid-gap: 10px;
+    padding: 1rem;
+}
+
+.secondaryFont {
+    grid-gap: 10px;
+    padding: 1rem;
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+}
