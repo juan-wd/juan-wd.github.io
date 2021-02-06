@@ -1,8 +1,16 @@
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 35rem) {
 
-    
-
+    body {
+        background: #48512A;
+        font-family: 'Cabin', sans-serif;
+    }
+    .presentation {
+        display: block;
+    }
+    .logo {
+        float:left;
+    }
 
 
 } /*end medium */

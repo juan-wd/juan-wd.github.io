@@ -4,16 +4,22 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+body {
+    background: #48512A;
+    font-family: 'Cabin', sans-serif;
+
+}
+
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: #fff;
+    color: #8D6346;
 }
 
 nav {
-    background-color: #aa0000;
+    background-color: #DDA15E;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav ul {
@@ -23,11 +29,12 @@ nav ul {
 }
 nav ul li a {
     display: block;
-    padding: .8rem 2%;
+    padding: .8rem 2%; 
     text-decoration: none;
     color: rgba(255,255,255,0.8);
     border-top:1px solid rgba(red, green, blue,0.3);
 }
+
 
 nav ul li.active a {background-color: rgba(0,0,0,0.2); color:#fff;}
 
